@@ -1,0 +1,173 @@
+body {
+	font-family: "Merriweather Sans", sans-serif;
+	color: #fefefe;
+	background: #c9d6ff; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#e2e2e2,
+		#c9d6ff
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#e2e2e2,
+		#c9d6ff
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h2 {
+	text-align: center;
+	background: #c9d6ff; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#e2e2e2,
+		#c9d6ff
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#e2e2e2,
+		#c9d6ff
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+
+header {
+	margin: 1.5rem;
+}
+
+.card {
+	width: 55%;
+	margin: 1rem auto;
+	text-align: center;
+	padding: 1.3rem 0;
+	background: #b993d6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#8ca6db,
+		#b993d6
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#8ca6db,
+		#b993d6
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.col i {
+	font-size: 2.5rem;
+	background: #0f0c29;
+	background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+	background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+	border: 8px solid #3d2c8d;
+	padding: 1.1rem 1rem;
+	border-radius: 50%;
+}
+
+.col p {
+	font-size: 2rem;
+	font-weight: 900;
+	margin: 2rem 0;
+	background: #c9d6ff; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#e2e2e2,
+		#c9d6ff
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#e2e2e2,
+		#c9d6ff
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+
+.main {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 2rem;
+}
+
+.main div i {
+	background: #ffe259; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#ffa751,
+		#ffe259
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#ffa751,
+		#ffe259
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	font-size: 3rem;
+}
+
+.main div i:hover {
+	transform: scale(0.9);
+}
+
+.result {
+	margin-top: 4rem;
+}
+
+.result p {
+	display: inline;
+	margin: 1rem 3rem;
+}
+
+.result h3 {
+	margin-top: 3rem;
+}
+
+@media (max-width: 800px) {
+	.card {
+		width: 80%;
+	}
+	.col i {
+		font-size: 2rem;
+		padding: 1rem;
+		border-radius: 50%;
+	}
+
+	.col p {
+		font-size: 2rem;
+		font-weight: 900;
+		margin: 2rem 0;
+	}
+}
+
+@media (max-width: 620px) {
+	.card {
+		width: 100%;
+		margin: 0;
+		height: 100vh;
+	}
+	.col i {
+		font-size: 2rem;
+		padding: 1rem;
+		border-radius: 50%;
+	}
+
+	.col p {
+		font-size: 2rem;
+		font-weight: 900;
+		margin: 2rem 0;
+	}
+	.main {
+		justify-content: space-around;
+	}
+
+	.result p {
+		margin: 1rem 1rem;
+		font-size: 0.9rem;
+	}
+}
